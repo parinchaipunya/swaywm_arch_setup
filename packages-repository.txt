@@ -1,8 +1,11 @@
 acpi
-arc-gtk-theme-eos
+alacritty
 autotiling
 awesome-terminal-fonts
 azote
+blueman
+bluez
+bluez-utils
 brightnessctl
 cliphist
 egl-wayland
@@ -31,7 +34,9 @@ network-manager-applet
 nwg-drawer
 nwg-look
 pamixer
+pavucontrol
 polkit-gnome
+rofi
 slurp
 swappy
 sway
@@ -47,6 +52,7 @@ ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
 waybar
 wayland-protocols
+wezterm
 wl-clipboard
 xdg-desktop-portal-wlr
 xed

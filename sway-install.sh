@@ -16,7 +16,7 @@ cd paru
 makepkg -si
 
 echo "Installing needed packages..."
-paru -S --noconfirm --needed --disable-download-timeout $(< packages-repository.txt)
+sudo pacman -S --noconfirm --needed --disable-download-timeout $(< packages-repository.txt)
 
 # Deploy user configs
 echo "Deploying user configs..."
