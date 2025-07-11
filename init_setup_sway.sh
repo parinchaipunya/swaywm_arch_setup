@@ -41,6 +41,8 @@ fi
 echo "Enabling the Greetd service..."
 systemctl -f enable greetd.service
 
+sudo chsh -s $(which zsh)
+
 # Remove the repo
 echo "Removing the local set up folder..."
 rm -rf ../sway
