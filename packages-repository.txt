@@ -37,6 +37,7 @@ pamixer
 pavucontrol
 polkit-gnome
 rofi
+rsync
 slurp
 swappy
 sway
