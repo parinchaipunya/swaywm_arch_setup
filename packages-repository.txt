@@ -10,6 +10,7 @@ brightnessctl
 cliphist
 egl-wayland
 file-roller
+firefox
 foot
 fuzzel
 greetd
@@ -48,6 +49,7 @@ sysstat
 thunar
 thunar-archive-plugin
 thunar-volman
+thunderbird
 ttf-jetbrains-mono
 ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
