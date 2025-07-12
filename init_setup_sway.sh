@@ -31,7 +31,7 @@ systemctl enable --now bluetooth.service
 systemctl enable --now NetworkManager.service
 
 echo "Change default shell to zsh..."
-sudo chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $username
 
 
 echo "Installation complete."
