@@ -38,6 +38,7 @@ nwg-look
 pamixer
 pavucontrol
 polkit-gnome
+power-profiles-daemon
 rofi
 rsync
 slurp

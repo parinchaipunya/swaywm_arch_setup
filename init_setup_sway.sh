@@ -30,21 +30,13 @@ chown -R "${username}:${username}" "/home/${username}"
 echo "Deploying system configs..."
 rsync -a --chown=root:root etc/ /etc/
 
-# Check if the script is running in a virtual machine
-if systemd-detect-virt | grep -vq "none"; then
-  echo "Virtual machine detected; enabling WLR_RENDERER_ALLOW_SOFTWARE variable in ReGreet config..."
-  # Uncomment WLR_RENDERER_ALLOW_SOFTWARE variable in ReGreet config
-  sed -i '/^#WLR_RENDERER_ALLOW_SOFTWARE/s/^#//' /etc/greetd/regreet.toml
-fi
-
 # Enable the Greetd service
 echo "Enabling the Greetd service..."
 systemctl -f enable greetd.service
+systemctl enable --now bluetooth.service
+systemctl enable --now NetworkManager.service
 
 sudo chsh -s $(which zsh)
 
-# Remove the repo
-echo "Removing the local set up folder..."
-rm -rf ../sway
 
 echo "Installation complete."
