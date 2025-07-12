@@ -9,7 +9,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Install the custom package list
-echo "Installing paru"
+echo "Installing paru..."
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
@@ -29,6 +29,7 @@ chown -R "${username}:${username}" "/home/${username}"
 # Deploy system configs
 echo "Deploying system configs..."
 rsync -a --chown=root:root etc/ /etc/
+rsync -a --chown=root:root usr/ /usr/
 
 # Enable the Greetd service
 echo "Enabling the Greetd service..."
@@ -36,6 +37,7 @@ systemctl -f enable greetd.service
 systemctl enable --now bluetooth.service
 systemctl enable --now NetworkManager.service
 
+echo "Change default shell to zsh..."
 sudo chsh -s $(which zsh)
 
 
