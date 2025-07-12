@@ -1,3 +1,2 @@
 downgrade
-oh-my-zsh-git
-zsh-theme-powerlevel10k
+swaylock-effects
