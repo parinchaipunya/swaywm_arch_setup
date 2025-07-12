@@ -13,6 +13,7 @@ file-roller
 firefox
 foot
 fuzzel
+fzf
 greetd
 greetd-tuigreet
 grim
@@ -60,4 +61,6 @@ wl-clipboard
 xdg-desktop-portal-wlr
 xed
 xorg-xwayland
+yazi
+zoxide
 zsh
