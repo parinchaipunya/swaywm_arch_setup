@@ -8,13 +8,6 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-# Install the custom package list
-echo "Installing paru..."
-sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
-
 echo "Installing needed packages..."
 sudo pacman -S --noconfirm --needed --disable-download-timeout $(< packages-repository.txt)
 
