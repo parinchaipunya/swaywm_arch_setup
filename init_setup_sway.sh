@@ -30,8 +30,13 @@ systemctl -f enable greetd.service
 systemctl enable --now bluetooth.service
 systemctl enable --now NetworkManager.service
 
+# Change default shell to zsh
 echo "Change default shell to zsh..."
 sudo chsh -s $(which zsh) $username
+
+# Setup vimplug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 
 echo "Installation complete."
