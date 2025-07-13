@@ -1,2 +1,15 @@
+brlaser
+brother-mfc-l2700dw
+brscan4
 downgrade
+jupyterthemes
+localsend-bin
+python-jupyterlab-vim
+qogir-cursor-theme
+qogir-gtk-theme
+spotify
 swaylock-effects
+tikzit
+wl-color-picker
+zapzap
+zoom
