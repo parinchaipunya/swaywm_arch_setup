@@ -55,6 +55,7 @@ swaybg
 sway-contrib
 swayidle
 sysstat
+system-config-printer
 thunar
 thunar-archive-plugin
 thunar-volman

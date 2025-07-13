@@ -29,6 +29,7 @@ echo "Enabling the Greetd service..."
 systemctl -f enable greetd.service
 systemctl enable --now bluetooth.service
 systemctl enable --now NetworkManager.service
+systemctl enable --now cups.service
 
 # Change default shell to zsh
 echo "Change default shell to zsh..."
