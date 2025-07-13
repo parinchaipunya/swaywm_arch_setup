@@ -9,6 +9,7 @@ bluez
 bluez-utils
 brightnessctl
 btop
+chromium
 cliphist
 egl-wayland
 file-roller
@@ -16,6 +17,7 @@ firefox
 foot
 fuzzel
 fzf
+gnome-disk-utility
 greetd
 greetd-tuigreet
 grim
@@ -32,6 +34,7 @@ gvfs-nfs
 gvfs-smb
 htop
 jq
+libreoffice-still
 mako
 neovim
 network-manager-applet
@@ -43,6 +46,7 @@ polkit-gnome
 power-profiles-daemon
 rofi
 rsync
+simple-scan
 slurp
 swappy
 sway
@@ -66,5 +70,9 @@ xdg-desktop-portal-wlr
 xed
 xorg-xwayland
 yazi
+zathura
+zathura-djvu
+zathura-pdf-mupdf
+zathura-ps
 zoxide
 zsh
