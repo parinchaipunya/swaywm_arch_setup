@@ -3,10 +3,12 @@ alacritty
 autotiling
 awesome-terminal-fonts
 azote
+bat
 blueman
 bluez
 bluez-utils
 brightnessctl
+btop
 cliphist
 egl-wayland
 file-roller
