@@ -17,6 +17,7 @@ firefox
 foot
 fuzzel
 fzf
+gcolor3
 gnome-disk-utility
 greetd
 greetd-tuigreet
