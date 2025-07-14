@@ -37,6 +37,7 @@ imv
 jq
 libreoffice-still
 mako
+man
 neovim
 network-manager-applet
 nwg-drawer
@@ -75,6 +76,7 @@ wl-clipboard
 xdg-desktop-portal-wlr
 xed
 xorg-xwayland
+xournalpp
 yazi
 zathura
 zathura-djvu
