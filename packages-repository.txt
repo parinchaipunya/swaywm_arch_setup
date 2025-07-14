@@ -12,6 +12,7 @@ btop
 chromium
 cliphist
 egl-wayland
+evince
 file-roller
 firefox
 foot
@@ -24,9 +25,6 @@ greetd-tuigreet
 grim
 gtk-engine-murrine
 gtk-layer-shell
-gtklock
-gtklock-powerbar-module
-gtklock-userinfo-module
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -34,6 +32,7 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 htop
+imv
 jq
 libreoffice-still
 mako
@@ -47,6 +46,8 @@ polkit-gnome
 power-profiles-daemon
 rofi
 rsync
+shotwell
+shutter
 simple-scan
 slurp
 swappy
