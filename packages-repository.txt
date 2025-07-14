@@ -11,6 +11,7 @@ brightnessctl
 btop
 chromium
 cliphist
+cups
 egl-wayland
 evince
 file-roller
@@ -50,6 +51,7 @@ shotwell
 shutter
 simple-scan
 slurp
+stow
 swappy
 sway
 swaybg
@@ -61,6 +63,7 @@ thunar
 thunar-archive-plugin
 thunar-volman
 thunderbird
+tmux
 ttf-jetbrains-mono
 ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
