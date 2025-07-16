@@ -43,8 +43,10 @@ neovim
 network-manager-applet
 nwg-drawer
 nwg-look
+obfuscate
 pamixer
 pavucontrol
+pdfarranger
 polkit-gnome
 power-profiles-daemon
 rofi
