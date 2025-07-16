@@ -32,6 +32,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+gvim
 htop
 imv
 jq
@@ -68,7 +69,6 @@ tmux
 ttf-jetbrains-mono
 ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
-vim
 waybar
 wayland-protocols
 wezterm
