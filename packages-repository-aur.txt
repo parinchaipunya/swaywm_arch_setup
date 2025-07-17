@@ -11,6 +11,5 @@ qogir-gtk-theme
 spotify
 swaylock-effects
 tikzit
-wl-color-picker
 zapzap
 zoom

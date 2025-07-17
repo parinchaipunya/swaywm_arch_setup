@@ -19,7 +19,6 @@ firefox
 foot
 fuzzel
 fzf
-gcolor3
 gnome-disk-utility
 greetd
 greetd-tuigreet
@@ -51,6 +50,7 @@ polkit-gnome
 power-profiles-daemon
 rofi
 rsync
+satty
 shotwell
 shutter
 simple-scan
