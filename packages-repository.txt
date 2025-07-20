@@ -48,7 +48,7 @@ pavucontrol
 pdfarranger
 polkit-gnome
 power-profiles-daemon
-rofi
+rofi-wayland
 rsync
 satty
 shotwell
