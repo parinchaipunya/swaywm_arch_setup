@@ -75,6 +75,7 @@ waybar
 wayland-protocols
 wezterm
 wl-clipboard
+xarchiver
 xdg-desktop-portal-wlr
 xed
 xorg-xwayland
