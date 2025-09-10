@@ -1,3 +1,4 @@
+i3
 acpi
 arandr
 archlinux-xdg-menu
@@ -76,6 +77,7 @@ neovim
 obfuscate
 pavucontrol
 pdfarranger
+polybar
 power-profiles-daemon
 rsync
 satty
