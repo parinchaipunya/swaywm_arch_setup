@@ -49,6 +49,8 @@ pavucontrol
 pdfarranger
 polkit-gnome
 power-profiles-daemon
+qt5ct
+qt5-svg
 rofi-wayland
 rsync
 satty

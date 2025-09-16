@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Record last update time
+When = PostTransaction
+Exec = /etc/pacman.d/hooks/mark-update.sh

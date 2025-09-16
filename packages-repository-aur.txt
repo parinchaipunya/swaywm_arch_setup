@@ -2,6 +2,7 @@ brlaser
 brother-mfc-l2700dw
 brscan4
 downgrade
+everforest-gtk-theme-git
 jupyterthemes
 localsend-bin
 python-jupyterlab-vim
