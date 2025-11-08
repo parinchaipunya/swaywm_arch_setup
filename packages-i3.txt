@@ -43,6 +43,9 @@ i3lock
 i3status
 imv
 jq
+libappindicator
+libayatana-appindicator
+libayatana-indicator
 libreoffice-still
 lightdm
 lightdm-slick-greeter
