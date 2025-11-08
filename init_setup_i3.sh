@@ -9,7 +9,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 echo "Installing needed packages..."
-sudo pacman -S --noconfirm --needed --disable-download-timeout $(< packages-repository.txt)
+sudo pacman -S --noconfirm --needed --disable-download-timeout $(< packages-i3.txt)
 
 # Deploy user configs
 echo "Deploying user configs..."
