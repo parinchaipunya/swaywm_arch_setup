@@ -3,12 +3,13 @@ brother-mfc-l2700dw
 brscan4
 downgrade
 everforest-gtk-theme-git
+everforest-icon-theme-git
 jupyterthemes
 localsend-bin
 python-jupyterlab-vim
 qogir-cursor-theme
-qogir-icon-theme
 qogir-gtk-theme
+qogir-icon-theme
 spotify
 swaylock-effects
 tikzit
