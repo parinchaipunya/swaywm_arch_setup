@@ -1,0 +1,32 @@
+#!/bin/bash
+
+while true; do
+    echo "------------------------"
+    echo " Select Environment:    "
+    echo " [0] River              "
+    echo " [1] Wayland (Sway)     "
+    echo " [2] X11 (i3)           "
+    echo " [3] sh                 "
+    echo "------------------------"
+    echo -n "Choice: "
+    read -r choice
+
+    case $choice in
+        0)
+            exec start-river
+            ;;
+        1)
+            exec start-sway
+            ;;
+        2)
+            exec startx
+            ;;
+        3)
+            exec sh
+            ;;
+        *)
+            echo "Invalid choice. Please try again."
+            sleep 1
+            ;;
+    esac
+done

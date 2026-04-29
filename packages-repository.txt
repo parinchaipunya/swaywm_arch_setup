@@ -3,7 +3,6 @@ acpi
 alacritty
 autotiling
 awesome-terminal-fonts
-azote
 bat
 blueman
 bluez
@@ -13,12 +12,12 @@ btop
 chromium
 cliphist
 cups
+dunst
 egl-wayland
 evince
 file-roller
 firefox
 foot
-fuzzel
 fzf
 gnome-disk-utility
 greetd
@@ -37,7 +36,6 @@ htop
 imv
 jq
 libreoffice-still
-mako
 man
 neovim
 network-manager-applet
@@ -49,8 +47,8 @@ pavucontrol
 pdfarranger
 polkit-gnome
 power-profiles-daemon
-qt5ct
 qt5-svg
+qt5ct
 rofi-wayland
 rsync
 satty
@@ -61,8 +59,8 @@ slurp
 stow
 swappy
 sway
-swaybg
 sway-contrib
+swaybg
 swayidle
 sysstat
 system-config-printer

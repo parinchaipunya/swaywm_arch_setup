@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# 1. Ask the question in the clean TTY environment
+echo "------------------------"
+echo " Select Window Manager: "
+echo " 0) i3"
+echo " 1) Qtile"
+echo "------------------------"
+printf "Choice [0/1]: "
+read -r WM_CHOICE
+
+# 2. Export the choice so the X session can see it
+export MY_XWM=$WM_CHOICE
+
+# 3. Start X (this will trigger your existing script/xinitrc)
+startx
