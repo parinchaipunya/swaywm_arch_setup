@@ -10,6 +10,7 @@ python-jupyterlab-vim
 qogir-cursor-theme
 qogir-gtk-theme
 qogir-icon-theme
+snixembed
 spotify
 swaylock-effects
 tikzit
