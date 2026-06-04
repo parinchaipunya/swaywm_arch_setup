@@ -13,11 +13,13 @@ brightnessctl
 btop
 chromium
 cliphist
+clipmenu
 cups
 dex
 dmenu
 dunst
 evince
+fastfetch
 feh
 file-roller
 firefox
@@ -59,6 +61,7 @@ obfuscate
 pamixer
 pavucontrol
 pdfarranger
+picom
 playerctl
 polkit-gnome
 polybar
