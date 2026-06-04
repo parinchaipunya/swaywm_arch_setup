@@ -13,5 +13,6 @@ qogir-icon-theme
 spotify
 swaylock-effects
 tikzit
+xidlehook
 zapzap
 zoom

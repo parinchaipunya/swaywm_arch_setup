@@ -65,6 +65,7 @@ polybar
 power-profiles-daemon
 rofi
 rsync
+rxvt-unicode
 satty
 scrot
 shotwell
@@ -93,6 +94,7 @@ xfce4-terminal
 xorg-xbacklight
 xorg-xdpyinfo
 xorg-xinit
+xorg-xset
 xournalpp
 xss-lock
 yazi
