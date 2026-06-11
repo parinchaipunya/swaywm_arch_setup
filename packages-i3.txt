@@ -97,6 +97,8 @@ xfce4-terminal
 xorg-xbacklight
 xorg-xdpyinfo
 xorg-xinit
+xorg-xinput
+xorg-xset
 xorg-xset
 xournalpp
 xss-lock
