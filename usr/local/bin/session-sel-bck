@@ -3,20 +3,25 @@
 while true; do
     echo "------------------------"
     echo " Select Environment:    "
+    echo " [0] River              "
     echo " [1] Wayland (Sway)     "
-    echo " [2] sh                 "
+    echo " [2] X11 (i3)           "
+    echo " [3] sh                 "
     echo "------------------------"
-    printf "Choice [1]: "
+    echo -n "Choice: "
     read -r choice
 
-    # Use Sway when Enter is pressed without any input.
-    choice=${choice:-1}
-
-    case "$choice" in
+    case $choice in
+        0)
+            exec start-river
+            ;;
         1)
             exec start-sway
             ;;
         2)
+            exec startx
+            ;;
+        3)
             exec sh
             ;;
         *)
