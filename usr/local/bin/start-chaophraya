@@ -1,0 +1,17 @@
+#!/bin/sh
+# Start river 0.5 with chaophraya as its window manager.
+# Like start-sway: copy to /usr/local/bin and pick it in tuigreet (or set it as
+# the --cmd in /etc/greetd/config.toml). Needs `river` (0.5) and `chaophraya`
+# (cargo install --path ~/projects/chaophraya/crates/chaophraya --root ~/.local).
+export XDG_SESSION_TYPE=wayland
+export XDG_SESSION_DESKTOP=river
+export XDG_CURRENT_DESKTOP=river
+export PATH="$HOME/.local/bin:$PATH"
+
+# Wayland stuff
+export QT_QPA_PLATFORM=wayland
+export SDL_VIDEODRIVER=wayland
+export _JAVA_AWT_WM_NONREPARENTING=1
+export MOZ_ENABLE_WAYLAND=1
+
+exec river -c chaophraya "$@"

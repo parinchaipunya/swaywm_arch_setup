@@ -24,6 +24,11 @@ echo "Deploying system configs..."
 rsync -a --chown=root:root etc/ /etc/
 rsync -a --chown=root:root usr/ /usr/
 
+# Build chaophraya (river 0.5 window manager) as the user, into ~/.local/bin.
+# greetd's session-sel starts it by default ([enter]); [s] falls back to sway.
+echo "Building chaophraya..."
+sudo -u "$username" -H ./install_chaophraya.sh || echo "chaophraya not installed: run ./install_chaophraya.sh later (sway still works)."
+
 # Enable the Greetd service
 echo "Enabling the Greetd service..."
 systemctl -f enable greetd.service

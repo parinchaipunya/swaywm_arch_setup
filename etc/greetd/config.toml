@@ -11,6 +11,7 @@ vt = 2
 
 command = "tuigreet --cmd /usr/local/bin/session-sel -g 'coffee makes theorems' --time --asterisks"
 # command = "tuigreet --cmd startx -g 'coffee makes theorems' --time --asterisks"
-# The `start-sway` script is required in order to properly load the environment variables.
+# session-sel (usr/local/bin) runs after login: [enter] Chao Phraya WM (default),
+# [s] sway, [$] sh. The start-* scripts set up the session environment.
 
 user = "greeter"
