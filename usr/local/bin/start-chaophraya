@@ -14,4 +14,13 @@ export SDL_VIDEODRIVER=wayland
 export _JAVA_AWT_WM_NONREPARENTING=1
 export MOZ_ENABLE_WAYLAND=1
 
-exec river -c chaophraya "$@"
+# Log chaophraya's output (errors, panics, and the output of programs it
+# starts) to ~/.local/state/chaophraya/chaophraya.log; the previous session's
+# log is kept as chaophraya.log.1, so a crash survives a reboot.
+LOG_DIR="${XDG_STATE_HOME:-$HOME/.local/state}/chaophraya"
+mkdir -p "$LOG_DIR"
+[ -f "$LOG_DIR/chaophraya.log" ] && mv -f "$LOG_DIR/chaophraya.log" "$LOG_DIR/chaophraya.log.1"
+export CHAOPHRAYA_LOG="$LOG_DIR/chaophraya.log"
+export RUST_BACKTRACE=1
+
+exec river -c 'exec chaophraya 2>>"$CHAOPHRAYA_LOG"' "$@"
