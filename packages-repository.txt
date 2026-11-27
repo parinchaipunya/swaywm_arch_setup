@@ -55,6 +55,7 @@ river
 rofi-wayland
 rsync
 rust
+scdoc
 satty
 shotwell
 shutter

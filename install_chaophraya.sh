@@ -34,6 +34,15 @@ command -v cargo >/dev/null || { echo "cargo not found: install 'rust' first."; 
 echo ":: Building chaophraya (release) from $SRC ::"
 cargo install --locked --path "$SRC/crates/chaophraya" --root "$HOME/.local"
 
+if command -v scdoc >/dev/null; then
+    echo ":: Installing the manual pages (man chaophraya, man 5 chaophraya) ::"
+    mkdir -p "$HOME/.local/share/man/man1" "$HOME/.local/share/man/man5"
+    scdoc < "$SRC/man/chaophraya.1.scd" > "$HOME/.local/share/man/man1/chaophraya.1"
+    scdoc < "$SRC/man/chaophraya.5.scd" > "$HOME/.local/share/man/man5/chaophraya.5"
+else
+    echo "(scdoc not found: skipping the manual pages)"
+fi
+
 echo ":: Checking the config ::"
 "$HOME/.local/bin/chaophraya" check-config || echo "(fix the config above, or stow the chaophraya dotfiles package)"
 
